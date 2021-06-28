@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dancing+Script:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header,section{
+    overflow-x: hidden;
+}
+:root{
+    --acme:"Acme",cursive;
+    --dancingscript:"Dancing Script",cursive;
+    --matesc:"Mate SC",cursive;
+    --bitter:"Bitter",cursive;
+}
+header a{
+    font-family: var(--matesc);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header{
+    background: #000;
+    background: linear-gradient(to right, #000000, #434343);
+}
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header .navbar-brand{ padding-left: 8rem;}
+header .nav-link:hover{ color: aliceblue;}
+header .row .col-md-5{padding: 4.2vmin 1vmin;}
+header .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 32vmin;
+    font-family: var(--bitter);
+    color: aliceblue;
+}
+header .col-md-5 img{
+    padding-top: 7rem;
+    width: 90%;
+}
+header .container ,.col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+header .container .col-md-7 span{
+    font-family: var(--matesc);
+    font-size: 30px;
+    color: #d4c379;
+}
+header .container .col-md-7 h1{
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+header .container .col-md-7 p{ padding: 1vmin 5vmin;}
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* -------------------------------- SECTION 1 ---------------------------------- */
+.section-1 .row .col-md-6 .reform img{
+    padding: 5px 0 15px 0;
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.8em;
+}
+.section-1 .row .col-md-6:last-child{ position: relative;}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 5vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 3vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+.section-1 .row .col-md-6 .panel h1{ 
+    font-family: var(--matesc);
+}
+.section-1 .row .col-md-6 .panel p{
+    font-family: var(--dancingscript);
+    font-size: 25px;
+}
+/* -------------------------------- SECTION 2 ---------------------------------- */
+.section-2{
+    height: 70vmin;
+}
+.cover{
+    width: 100%;
+    height: 45vmin;
+    background: url('../Assets/img_bg.jpg');
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 10vmin;
+}
+.cover .content>h1{
+    font-family: var(--matesc);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+.cover .content>p{
+    font-family: var(--acme);
+    font-size: 3vmin;
+    color: whitesmoke;
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 15rem;
+    padding-top: 3.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.3);
+}
+.numbers{ margin: -15vmin;}
+.numbers .rect>h1{
+    font-family: var(--dancingscript);
+    font-size: 5rem;
+    color: #ff1a1a;
+}
+.numbers .rect>p{
+    font-family: var(--acme);
+    font-size: 2rem;
+    color: #000;
+}
+.skills{
+    background: linear-gradient(to right, #000000, #434343);
+}
+.skills>h1{
+    padding-top: 5px;
+    font-family: var(--matesc);
+    font-size: 3rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.skills>p{
+    font-family: var(--acme);
+    font-size: 1.5rem;
+    color: white;
+}
+.skills .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+    border-radius: 5px;
+    box-shadow: 1px 2px 50px 0px rgba(255, 148, 66, 0.8);
+}
+.cards .title{ 
+    background: linear-gradient(to bottom, #57e8eb, #fff);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+    border-radius: 5px;
+}
+.card .skill i{
+    font-size: 4rem;
+    padding-bottom: 5px;
+    color: #d4c379;
+}
+.card-text{
+    font-family: var(--acme);
+    color:var(--light-black);
+    background: linear-gradient(to top,#57e8eb, #fff);
+}
+/* -------------------------------- SECTION 3 ---------------------------------- */
+.section-3{
+    background: #fcfcf5;
+    padding-top: 2rem;
+}
+.section-3 .row .col-md-6 .reform img{
+    padding: 15px 0 15px 0;
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.8em;
+}
+.section-3 .row .col-md-6:last-child{ position: relative;}
+.section-3 .row .col-md-6 .panel{
+    position: absolute;
+    top: 5vmin;
+    left: -20vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 2vmin 5vmin 3vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+.section-3 .row .col-md-6 .panel h1{ 
+    font-family: var(--matesc);
+}
+.section-3 .row .col-md-6 .panel p{
+    font-family: var(--dancingscript);
+    font-size: 25px;
+}
+.section-3 .row .col-md-6 .panel li{
+    font-family: var(--acme);
+    font-size: 18px;
+}
+/* -------------------------------- SECTION 4 ---------------------------------- */
+.section-4 h1{
+    font-family: var(--matesc);
+    font-size: 5rem;
+    padding-top: 10px;
+}
+.text-secondary{
+    font-family: var(--bitter);
+    font-size: 2rem;
+}
+.border-radius{
+   border-radius: 340px;
+   width: 60%; 
+}
+.section-4 .team{ height: 38rem;}
+.section-4 .team .card{
+    width: 22rem;
+    height: 35rem;
+}
+.card-body .card-text{
+    background: #fff;
+}
+/* -------------------------------- FOOTER ---------------------------------- */
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer p>span{ color: #ff1a1a;}
+.text-muted{ color: #434343;}
+footer input{border: none!important;}
+footer input::placeholder{ color: white !important;}
+.input-group-text{
+    background: linear-gradient(to right,#ffafbd , #ffc3a0);
+    height: 40px;
+}
+footer .column i{
+    color: crimson;
+    font-size: 30px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
